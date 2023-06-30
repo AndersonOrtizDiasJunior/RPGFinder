@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5397CBD92A4A026C00D46F4A /* MapsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5397CBD12A4A026C00D46F4A /* MapsService.swift */; };
+		5397CBDA2A4A026C00D46F4A /* GoogleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5397CBD22A4A026C00D46F4A /* GoogleMapView.swift */; };
+		5397CBDB2A4A026C00D46F4A /* MapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5397CBD32A4A026C00D46F4A /* MapsView.swift */; };
+		5397CBDC2A4A026C00D46F4A /* MapCallerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5397CBD42A4A026C00D46F4A /* MapCallerType.swift */; };
+		5397CBDD2A4A026C00D46F4A /* POI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5397CBD62A4A026C00D46F4A /* POI.swift */; };
+		5397CBDE2A4A026C00D46F4A /* RouteResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5397CBD72A4A026C00D46F4A /* RouteResponse.swift */; };
+		5397CBDF2A4A026C00D46F4A /* MapsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5397CBD82A4A026C00D46F4A /* MapsViewModel.swift */; };
+		5397CBE22A4A02B900D46F4A /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5397CBE12A4A02B900D46F4A /* LocationViewModel.swift */; };
+		53CFEBDE2A49D654009DA89D /* RPGFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CFEBDD2A49D654009DA89D /* RPGFinderApp.swift */; };
+		53CFEBE02A49D654009DA89D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CFEBDF2A49D654009DA89D /* ContentView.swift */; };
+		53CFEBE22A49D655009DA89D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53CFEBE12A49D655009DA89D /* Assets.xcassets */; };
+		53CFEBE52A49D655009DA89D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53CFEBE42A49D655009DA89D /* Preview Assets.xcassets */; };
+		53CFEBEF2A49D656009DA89D /* RPGFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CFEBEE2A49D656009DA89D /* RPGFinderTests.swift */; };
+		53CFEBF92A49D656009DA89D /* RPGFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CFEBF82A49D656009DA89D /* RPGFinderUITests.swift */; };
+		53CFEBFB2A49D656009DA89D /* RPGFinderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CFEBFA2A49D656009DA89D /* RPGFinderUITestsLaunchTests.swift */; };
+		B8116892FF57D93E80B04F76 /* libPods-RPGFinder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E591E92A80B69D38D8E777 /* libPods-RPGFinder.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53CFEBEB2A49D656009DA89D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53CFEBD22A49D654009DA89D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53CFEBD92A49D654009DA89D;
+			remoteInfo = RPGFinder;
+		};
+		53CFEBF52A49D656009DA89D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53CFEBD22A49D654009DA89D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53CFEBD92A49D654009DA89D;
+			remoteInfo = RPGFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C8437EE5751596F21E60A99 /* Pods-RPGFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPGFinder.release.xcconfig"; path = "Target Support Files/Pods-RPGFinder/Pods-RPGFinder.release.xcconfig"; sourceTree = "<group>"; };
+		530F77D92A4A065E0028E55C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5397CBD12A4A026C00D46F4A /* MapsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsService.swift; sourceTree = "<group>"; };
+		5397CBD22A4A026C00D46F4A /* GoogleMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleMapView.swift; sourceTree = "<group>"; };
+		5397CBD32A4A026C00D46F4A /* MapsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsView.swift; sourceTree = "<group>"; };
+		5397CBD42A4A026C00D46F4A /* MapCallerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapCallerType.swift; sourceTree = "<group>"; };
+		5397CBD62A4A026C00D46F4A /* POI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POI.swift; sourceTree = "<group>"; };
+		5397CBD72A4A026C00D46F4A /* RouteResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteResponse.swift; sourceTree = "<group>"; };
+		5397CBD82A4A026C00D46F4A /* MapsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsViewModel.swift; sourceTree = "<group>"; };
+		5397CBE12A4A02B900D46F4A /* LocationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		53CFEBDA2A49D654009DA89D /* RPGFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPGFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53CFEBDD2A49D654009DA89D /* RPGFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPGFinderApp.swift; sourceTree = "<group>"; };
+		53CFEBDF2A49D654009DA89D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		53CFEBE12A49D655009DA89D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53CFEBE42A49D655009DA89D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		53CFEBEA2A49D656009DA89D /* RPGFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPGFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53CFEBEE2A49D656009DA89D /* RPGFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPGFinderTests.swift; sourceTree = "<group>"; };
+		53CFEBF42A49D656009DA89D /* RPGFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPGFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53CFEBF82A49D656009DA89D /* RPGFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPGFinderUITests.swift; sourceTree = "<group>"; };
+		53CFEBFA2A49D656009DA89D /* RPGFinderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPGFinderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C09F4386852BFBC870453042 /* Pods-RPGFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPGFinder.debug.xcconfig"; path = "Target Support Files/Pods-RPGFinder/Pods-RPGFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		D7E591E92A80B69D38D8E777 /* libPods-RPGFinder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RPGFinder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53CFEBD72A49D654009DA89D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8116892FF57D93E80B04F76 /* libPods-RPGFinder.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53CFEBE72A49D655009DA89D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53CFEBF12A49D656009DA89D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21C687CEBEB408681A5A8FBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7E591E92A80B69D38D8E777 /* libPods-RPGFinder.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5397CBD02A4A026C00D46F4A /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				5397CBD52A4A026C00D46F4A /* Model */,
+				5397CBD12A4A026C00D46F4A /* MapsService.swift */,
+				5397CBD22A4A026C00D46F4A /* GoogleMapView.swift */,
+				5397CBD32A4A026C00D46F4A /* MapsView.swift */,
+				5397CBD42A4A026C00D46F4A /* MapCallerType.swift */,
+				5397CBD82A4A026C00D46F4A /* MapsViewModel.swift */,
+			);
+			path = Maps;
+			sourceTree = "<group>";
+		};
+		5397CBD52A4A026C00D46F4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5397CBD62A4A026C00D46F4A /* POI.swift */,
+				5397CBD72A4A026C00D46F4A /* RouteResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5397CBE02A4A02B900D46F4A /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				5397CBE12A4A02B900D46F4A /* LocationViewModel.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		53CFEBD12A49D654009DA89D = {
+			isa = PBXGroup;
+			children = (
+				53CFEBDC2A49D654009DA89D /* RPGFinder */,
+				53CFEBED2A49D656009DA89D /* RPGFinderTests */,
+				53CFEBF72A49D656009DA89D /* RPGFinderUITests */,
+				53CFEBDB2A49D654009DA89D /* Products */,
+				587130904002986AFE4A2E7E /* Pods */,
+				21C687CEBEB408681A5A8FBF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		53CFEBDB2A49D654009DA89D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53CFEBDA2A49D654009DA89D /* RPGFinder.app */,
+				53CFEBEA2A49D656009DA89D /* RPGFinderTests.xctest */,
+				53CFEBF42A49D656009DA89D /* RPGFinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53CFEBDC2A49D654009DA89D /* RPGFinder */ = {
+			isa = PBXGroup;
+			children = (
+				530F77D92A4A065E0028E55C /* Info.plist */,
+				5397CBE02A4A02B900D46F4A /* Location */,
+				5397CBD02A4A026C00D46F4A /* Maps */,
+				53CFEBDD2A49D654009DA89D /* RPGFinderApp.swift */,
+				53CFEBDF2A49D654009DA89D /* ContentView.swift */,
+				53CFEBE12A49D655009DA89D /* Assets.xcassets */,
+				53CFEBE32A49D655009DA89D /* Preview Content */,
+			);
+			path = RPGFinder;
+			sourceTree = "<group>";
+		};
+		53CFEBE32A49D655009DA89D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				53CFEBE42A49D655009DA89D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		53CFEBED2A49D656009DA89D /* RPGFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				53CFEBEE2A49D656009DA89D /* RPGFinderTests.swift */,
+			);
+			path = RPGFinderTests;
+			sourceTree = "<group>";
+		};
+		53CFEBF72A49D656009DA89D /* RPGFinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				53CFEBF82A49D656009DA89D /* RPGFinderUITests.swift */,
+				53CFEBFA2A49D656009DA89D /* RPGFinderUITestsLaunchTests.swift */,
+			);
+			path = RPGFinderUITests;
+			sourceTree = "<group>";
+		};
+		587130904002986AFE4A2E7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C09F4386852BFBC870453042 /* Pods-RPGFinder.debug.xcconfig */,
+				0C8437EE5751596F21E60A99 /* Pods-RPGFinder.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53CFEBD92A49D654009DA89D /* RPGFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53CFEBFE2A49D656009DA89D /* Build configuration list for PBXNativeTarget "RPGFinder" */;
+			buildPhases = (
+				4A10C33D76C9C333994DCA5A /* [CP] Check Pods Manifest.lock */,
+				53CFEBD62A49D654009DA89D /* Sources */,
+				53CFEBD72A49D654009DA89D /* Frameworks */,
+				53CFEBD82A49D654009DA89D /* Resources */,
+				B06019EF783ABD649F2D8A09 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RPGFinder;
+			productName = RPGFinder;
+			productReference = 53CFEBDA2A49D654009DA89D /* RPGFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53CFEBE92A49D655009DA89D /* RPGFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53CFEC012A49D656009DA89D /* Build configuration list for PBXNativeTarget "RPGFinderTests" */;
+			buildPhases = (
+				53CFEBE62A49D655009DA89D /* Sources */,
+				53CFEBE72A49D655009DA89D /* Frameworks */,
+				53CFEBE82A49D655009DA89D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53CFEBEC2A49D656009DA89D /* PBXTargetDependency */,
+			);
+			name = RPGFinderTests;
+			productName = RPGFinderTests;
+			productReference = 53CFEBEA2A49D656009DA89D /* RPGFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		53CFEBF32A49D656009DA89D /* RPGFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53CFEC042A49D656009DA89D /* Build configuration list for PBXNativeTarget "RPGFinderUITests" */;
+			buildPhases = (
+				53CFEBF02A49D656009DA89D /* Sources */,
+				53CFEBF12A49D656009DA89D /* Frameworks */,
+				53CFEBF22A49D656009DA89D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53CFEBF62A49D656009DA89D /* PBXTargetDependency */,
+			);
+			name = RPGFinderUITests;
+			productName = RPGFinderUITests;
+			productReference = 53CFEBF42A49D656009DA89D /* RPGFinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53CFEBD22A49D654009DA89D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					53CFEBD92A49D654009DA89D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					53CFEBE92A49D655009DA89D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 53CFEBD92A49D654009DA89D;
+					};
+					53CFEBF32A49D656009DA89D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 53CFEBD92A49D654009DA89D;
+					};
+				};
+			};
+			buildConfigurationList = 53CFEBD52A49D654009DA89D /* Build configuration list for PBXProject "RPGFinder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53CFEBD12A49D654009DA89D;
+			productRefGroup = 53CFEBDB2A49D654009DA89D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53CFEBD92A49D654009DA89D /* RPGFinder */,
+				53CFEBE92A49D655009DA89D /* RPGFinderTests */,
+				53CFEBF32A49D656009DA89D /* RPGFinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53CFEBD82A49D654009DA89D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53CFEBE52A49D655009DA89D /* Preview Assets.xcassets in Resources */,
+				53CFEBE22A49D655009DA89D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53CFEBE82A49D655009DA89D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53CFEBF22A49D656009DA89D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A10C33D76C9C333994DCA5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RPGFinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B06019EF783ABD649F2D8A09 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RPGFinder/Pods-RPGFinder-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RPGFinder/Pods-RPGFinder-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RPGFinder/Pods-RPGFinder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53CFEBD62A49D654009DA89D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5397CBDF2A4A026C00D46F4A /* MapsViewModel.swift in Sources */,
+				5397CBDD2A4A026C00D46F4A /* POI.swift in Sources */,
+				5397CBDB2A4A026C00D46F4A /* MapsView.swift in Sources */,
+				5397CBE22A4A02B900D46F4A /* LocationViewModel.swift in Sources */,
+				5397CBDA2A4A026C00D46F4A /* GoogleMapView.swift in Sources */,
+				53CFEBE02A49D654009DA89D /* ContentView.swift in Sources */,
+				5397CBDE2A4A026C00D46F4A /* RouteResponse.swift in Sources */,
+				5397CBDC2A4A026C00D46F4A /* MapCallerType.swift in Sources */,
+				53CFEBDE2A49D654009DA89D /* RPGFinderApp.swift in Sources */,
+				5397CBD92A4A026C00D46F4A /* MapsService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53CFEBE62A49D655009DA89D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53CFEBEF2A49D656009DA89D /* RPGFinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53CFEBF02A49D656009DA89D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53CFEBFB2A49D656009DA89D /* RPGFinderUITestsLaunchTests.swift in Sources */,
+				53CFEBF92A49D656009DA89D /* RPGFinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53CFEBEC2A49D656009DA89D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53CFEBD92A49D654009DA89D /* RPGFinder */;
+			targetProxy = 53CFEBEB2A49D656009DA89D /* PBXContainerItemProxy */;
+		};
+		53CFEBF62A49D656009DA89D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53CFEBD92A49D654009DA89D /* RPGFinder */;
+			targetProxy = 53CFEBF52A49D656009DA89D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		53CFEBFC2A49D656009DA89D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53CFEBFD2A49D656009DA89D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53CFEBFF2A49D656009DA89D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C09F4386852BFBC870453042 /* Pods-RPGFinder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RPGFinder/Preview Content\"";
+				DEVELOPMENT_TEAM = 2N5Z737Y78;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RPGFinder/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App wants to use your location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Anderson.RPGFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53CFEC002A49D656009DA89D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C8437EE5751596F21E60A99 /* Pods-RPGFinder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RPGFinder/Preview Content\"";
+				DEVELOPMENT_TEAM = 2N5Z737Y78;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RPGFinder/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App wants to use your location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Anderson.RPGFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		53CFEC022A49D656009DA89D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2N5Z737Y78;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Anderson.RPGFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RPGFinder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RPGFinder";
+			};
+			name = Debug;
+		};
+		53CFEC032A49D656009DA89D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2N5Z737Y78;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Anderson.RPGFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RPGFinder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RPGFinder";
+			};
+			name = Release;
+		};
+		53CFEC052A49D656009DA89D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2N5Z737Y78;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Anderson.RPGFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RPGFinder;
+			};
+			name = Debug;
+		};
+		53CFEC062A49D656009DA89D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2N5Z737Y78;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Anderson.RPGFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RPGFinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53CFEBD52A49D654009DA89D /* Build configuration list for PBXProject "RPGFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53CFEBFC2A49D656009DA89D /* Debug */,
+				53CFEBFD2A49D656009DA89D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53CFEBFE2A49D656009DA89D /* Build configuration list for PBXNativeTarget "RPGFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53CFEBFF2A49D656009DA89D /* Debug */,
+				53CFEC002A49D656009DA89D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53CFEC012A49D656009DA89D /* Build configuration list for PBXNativeTarget "RPGFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53CFEC022A49D656009DA89D /* Debug */,
+				53CFEC032A49D656009DA89D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53CFEC042A49D656009DA89D /* Build configuration list for PBXNativeTarget "RPGFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53CFEC052A49D656009DA89D /* Debug */,
+				53CFEC062A49D656009DA89D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53CFEBD22A49D654009DA89D /* Project object */;
+}
